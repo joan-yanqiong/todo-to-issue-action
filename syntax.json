@@ -1,5 +1,28 @@
 [
   {
+    "language": "Jupyter Notebook",
+    "markers": [
+      {
+        "type": "line",
+        "pattern": "#"
+      },
+      {
+        "type": "block",
+        "pattern": {
+          "start": "'''",
+          "end": "'''"
+        }
+      },
+      {
+        "type": "block",
+        "pattern": {
+          "start": "\"\"\"",
+          "end": "\"\"\""
+        }
+      }
+    ]
+  },
+  {
     "language": "Python",
     "markers": [
       {
